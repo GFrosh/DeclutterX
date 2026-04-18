@@ -1,4 +1,4 @@
-# 🗂️ Sortify — File Organizer
+# 🗂️ DeclutterX — File Organizer
 
 > A lightweight, cross-platform C++ CLI tool that automatically sorts files in a directory into categorized subfolders by file type.
 
@@ -11,7 +11,7 @@
 
 ## 📖 Overview
 
-**Sortify** scans a chosen directory and moves files into organized subfolders based on their extensions — no manual sorting required. It supports common images, documents, videos, audio, archives, and code files, placing anything unrecognized into an `Others/` folder.
+**DeclutterX** scans a chosen directory and moves files into organized subfolders based on their extensions — no manual sorting required. It supports common images, documents, videos, audio, archives, and code files, placing anything unrecognized into an `Others/` folder.
 
 ---
 
@@ -34,7 +34,7 @@
 
 ## 📂 Output Structure
 
-After running Sortify on a directory, files are organized like this:
+After running DeclutterX on a directory, files are organized like this:
 
 ```
 Downloads/
@@ -72,24 +72,24 @@ Downloads/
 
 ```bash
 # Clone the repository
-git clone https://github.com/OsmondJnr/sortify.git
-cd sortify
+git clone https://github.com/OsmondJnr/DeclutterX.git
+cd DeclutterX
 
 # Compile with g++
-g++ -std=c++17 -o sortify File_Organizer.cpp
+g++ -std=c++17 -o DeclutterX File_Organizer.cpp
 
 # On Windows (MinGW)
-g++ -std=c++17 -o sortify.exe File_Organizer.cpp
+g++ -std=c++17 -o DeclutterX.exe File_Organizer.cpp
 ```
 
 ### Run
 
 ```bash
 # Linux / macOS
-./sortify
+./DeclutterX
 
 # Windows
-sortify.exe
+DeclutterX.exe
 ```
 
 You'll be prompted to pick a directory:
@@ -99,7 +99,6 @@ You'll be prompted to pick a directory:
 1. Desktop
 2. Downloads
 3. Documents
-4. Enter custom path
 Choice:
 ```
 
@@ -147,7 +146,7 @@ Please make sure your code compiles cleanly with `-std=c++17` and follows the ex
 
 ## 🐛 Reporting Issues
 
-Found a bug or have a suggestion? [Open an issue](https://github.com/OsmondJnr/sortify/issues) and include:
+Found a bug or have a suggestion? [Open an issue](https://github.com/OsmondJnr/DeclutterX/issues) and include:
 - Your OS and compiler version
 - Steps to reproduce the problem
 - Any error output from the terminal
