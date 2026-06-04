@@ -29,6 +29,12 @@ public:
         else if (ext == ".zip" || ext == ".rar" || ext == ".7z" || ext == ".tar") {
             return "Archives";
         }
+        else if (ext == ".exe" || ext == ".msi" || ext == ".deb" || ext == ".apk") {
+            return "Installation files";
+        }
+        else if (ext == ".java" || ext == ".py" || ext == ".ts" || ext == ".js" || ext == ".cpp" || ext == ".c" || ext == ".jsx" || ext == ".c#") {
+            return "Code";
+        }
         else {
             return "Others";
         }
@@ -96,7 +102,7 @@ int main() {
     int choice;
 
     cout << "File Organizer\n";
-    cout << "Pick the directory you want to organize\n";
+    cout << "Pick the directory you want to organize:\n";
     cout << "1. Desktop\n";
     cout << "2. Downloads\n";
     cout << "3. Documents\n";
