@@ -29,10 +29,10 @@ public:
         else if (ext == ".zip" || ext == ".rar" || ext == ".7z" || ext == ".tar") {
             return "Archives";
         }
-        else if (ext == ".exe" || ext == ".msi" || ext == ".deb" || ext == ".apk") {
+        else if (ext == ".exe" || ext == ".msi" || ext == ".msix" || ext == ".pkg" || ext == ".dmg" || ext == ".appx" || ext == ".deb" || ext == ".apk") {
             return "Installation files";
         }
-        else if (ext == ".java" || ext == ".py" || ext == ".ts" || ext == ".js" || ext == ".cpp" || ext == ".c" || ext == ".jsx" || ext == ".c#") {
+        else if (ext == ".java" || ext == ".py" || ext == ".ts" || ext == ".js" || ext == ".cpp" || ext == ".c" || ext == ".jsx" || ext == ".csproj" || ext == ".cs"|| ext == ".go" || ext == ".rb" || ext == ".php" || ext == ".swift" || ext == ".kt" || ext == ".rs" || ext == ".scala" || ext == ".lua" || ext == ".sh" || ext == ".bat" || ext == ".ps1" || ext == ".vb" || ext == ".fs" || ext == ".clj" || ext == ".dart" || ext == ".groovy" || ext == ".h" || ext == ".hpp" || ext == ".cxx" || ext == ".cc") {
             return "Code";
         }
         else {
